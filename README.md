@@ -93,53 +93,9 @@ Future work involves applying FDIA v3 Core to real forensic extraction scenarios
 ---
 
 ## How to Run
-
-Clone the repository:
-
-```bash
-git clone https://github.com/adell333/fdia-v3-core-phase1.git
-cd fdia-v3-core-phase1
-Paste this at the bottom of your README.md file:
-
----
-## How to Run
 Clone the repository:
 ```bash
 git clone https://github.com/adell333/fdia-v3-core-phase1.git
 cd fdia-v3-core-phase1
-
-Install dependencies:
-
 pip install -r requirements.txt
-
-Run FDIA v3 Core:
-
 python run_fdia_v3_core.py
-
-⸻
-
-Results Output
-
-The file results/fdia_v3_core_raw_results.json contains per-sample outputs including:
-
-* classification
-* signal values (entropy, structure, integrity)
-* reasoning
-
-This enables inspection of how FDIA v3 Core evaluates each artifact.
-
-⸻
-
-Research Report
-
-Full Phase 1 report available here:
-
-* reports/fdia_v3_core_phase1_report.md
-
-⸻
-
-Limitations
-
-* Evaluation is performed on a controlled synthetic benchmark
-* Real-world acquisition noise is not represented
-* Hardware extraction variability is not included
