@@ -89,3 +89,13 @@ It does not represent full real-world validation.
 ## Research Direction
 
 Future work involves applying FDIA v3 Core to real forensic extraction scenarios to evaluate data reliability under real-world conditions.
+
+---
+
+## How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/adell333/fdia-v3-core-phase1.git
+cd fdia-v3-core-phase1
