@@ -1,0 +1,6 @@
+{
+    "type": "M2",
+    "ground_truth": "Misleading",
+    "description": "Truncated structured data",
+    "expected_fdia": "Misleading or Partial"
+}

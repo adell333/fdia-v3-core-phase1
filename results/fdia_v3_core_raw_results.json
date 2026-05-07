@@ -1,0 +1,1714 @@
+[
+    {
+        "file": "datasets\\misleading_v1\\M1_0.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 7.917335411020418,
+            "entropy_variance": 0.00014750684631748494,
+            "structure_confidence": 0.2,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.5
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 50728",
+                "Possible table schema structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 50728"
+                ]
+            },
+            "contradictions": [
+                "High entropy contradicts structure",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy indicates random or encrypted-like data",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 50728",
+            "Structure signal: Possible table schema structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 50728",
+            "Contradiction: High entropy contradicts structure",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Encrypted",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M1_1.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 7.9075875914546945,
+            "entropy_variance": 0.00017986363093921575,
+            "structure_confidence": 0.2,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.5
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 8331",
+                "Possible table schema structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 8331"
+                ]
+            },
+            "contradictions": [
+                "High entropy contradicts structure",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy indicates random or encrypted-like data",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 8331",
+            "Structure signal: Possible table schema structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 8331",
+            "Contradiction: High entropy contradicts structure",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Encrypted",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M1_2.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 7.906654902693919,
+            "entropy_variance": 0.0008105894910505358,
+            "structure_confidence": 0.2,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.5
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 27581",
+                "Possible table schema structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 27581"
+                ]
+            },
+            "contradictions": [
+                "High entropy contradicts structure",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy indicates random or encrypted-like data",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 27581",
+            "Structure signal: Possible table schema structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 27581",
+            "Contradiction: High entropy contradicts structure",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Encrypted",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M1_3.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 7.914488332628556,
+            "entropy_variance": 0.0006790080369702557,
+            "structure_confidence": 0.2,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.5
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 1780",
+                "Possible table schema structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 1780"
+                ]
+            },
+            "contradictions": [
+                "High entropy contradicts structure",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy indicates random or encrypted-like data",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 1780",
+            "Structure signal: Possible table schema structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 1780",
+            "Contradiction: High entropy contradicts structure",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Encrypted",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M1_4.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 7.904986083884744,
+            "entropy_variance": 0.0001188994685675326,
+            "structure_confidence": 0.2,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.5
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 42924",
+                "Possible table schema structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 42924"
+                ]
+            },
+            "contradictions": [
+                "High entropy contradicts structure",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy indicates random or encrypted-like data",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 42924",
+            "Structure signal: Possible table schema structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 42924",
+            "Contradiction: High entropy contradicts structure",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Encrypted",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M1_5.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 7.902713991793363,
+            "entropy_variance": 0.00013122349418547217,
+            "structure_confidence": 0.2,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.5
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 53334",
+                "Possible table schema structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 53334"
+                ]
+            },
+            "contradictions": [
+                "High entropy contradicts structure",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy indicates random or encrypted-like data",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 53334",
+            "Structure signal: Possible table schema structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 53334",
+            "Contradiction: High entropy contradicts structure",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Encrypted",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M1_6.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 7.922787421464835,
+            "entropy_variance": 0.0004534356465348983,
+            "structure_confidence": 0.2,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.5
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 11705",
+                "Possible table schema structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 11705"
+                ]
+            },
+            "contradictions": [
+                "High entropy contradicts structure",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy indicates random or encrypted-like data",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 11705",
+            "Structure signal: Possible table schema structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 11705",
+            "Contradiction: High entropy contradicts structure",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Encrypted",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M1_7.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 7.90346606000234,
+            "entropy_variance": 0.0004932032258873044,
+            "structure_confidence": 0.2,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.5
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 55958",
+                "Possible table schema structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 55958"
+                ]
+            },
+            "contradictions": [
+                "High entropy contradicts structure",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy indicates random or encrypted-like data",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 55958",
+            "Structure signal: Possible table schema structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 55958",
+            "Contradiction: High entropy contradicts structure",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Encrypted",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M1_8.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 7.917937397453291,
+            "entropy_variance": 0.00020222875418758065,
+            "structure_confidence": 0.2,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.5
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 5199",
+                "Possible table schema structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 5199"
+                ]
+            },
+            "contradictions": [
+                "High entropy contradicts structure",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy indicates random or encrypted-like data",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 5199",
+            "Structure signal: Possible table schema structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 5199",
+            "Contradiction: High entropy contradicts structure",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Encrypted",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M1_9.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 7.90366541144672,
+            "entropy_variance": 0.0009522276698403513,
+            "structure_confidence": 0.2,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.5
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 20232",
+                "Possible table schema structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 20232"
+                ]
+            },
+            "contradictions": [
+                "High entropy contradicts structure",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy indicates random or encrypted-like data",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 20232",
+            "Structure signal: Possible table schema structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 20232",
+            "Contradiction: High entropy contradicts structure",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Encrypted",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M2_0.bin",
+        "expected_label": "Partial",
+        "fdia": {
+            "classification": "Partial",
+            "confidence": 0.75
+        },
+        "signals": {
+            "entropy": 0.39229218908241476,
+            "entropy_variance": 0.28566001437693594,
+            "structure_confidence": 0.26999999999999996,
+            "integrity_score": 0.6,
+            "contradiction_index": 0.25
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Strong ASCII structure (1.00)",
+                "Data too small \u2192 incomplete structure",
+                "Low byte diversity \u2192 artificial structure"
+            ],
+            "integrity": [
+                "Incomplete extraction"
+            ],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "Low entropy indicates uniform or artificial structured data",
+            "Detected structure is not validated by SQLite validation",
+            "Integrity score indicates incomplete or truncated data",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Strong ASCII structure (1.00)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "Structure signal: Low byte diversity \u2192 artificial structure",
+            "Integrity signal: Incomplete extraction",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M2_1.bin",
+        "expected_label": "Partial",
+        "fdia": {
+            "classification": "Partial",
+            "confidence": 0.75
+        },
+        "signals": {
+            "entropy": 0.39229218908241476,
+            "entropy_variance": 0.28566001437693594,
+            "structure_confidence": 0.26999999999999996,
+            "integrity_score": 0.6,
+            "contradiction_index": 0.25
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Strong ASCII structure (1.00)",
+                "Data too small \u2192 incomplete structure",
+                "Low byte diversity \u2192 artificial structure"
+            ],
+            "integrity": [
+                "Incomplete extraction"
+            ],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "Low entropy indicates uniform or artificial structured data",
+            "Detected structure is not validated by SQLite validation",
+            "Integrity score indicates incomplete or truncated data",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Strong ASCII structure (1.00)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "Structure signal: Low byte diversity \u2192 artificial structure",
+            "Integrity signal: Incomplete extraction",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M2_2.bin",
+        "expected_label": "Partial",
+        "fdia": {
+            "classification": "Partial",
+            "confidence": 0.75
+        },
+        "signals": {
+            "entropy": 0.39229218908241476,
+            "entropy_variance": 0.28566001437693594,
+            "structure_confidence": 0.26999999999999996,
+            "integrity_score": 0.6,
+            "contradiction_index": 0.25
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Strong ASCII structure (1.00)",
+                "Data too small \u2192 incomplete structure",
+                "Low byte diversity \u2192 artificial structure"
+            ],
+            "integrity": [
+                "Incomplete extraction"
+            ],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "Low entropy indicates uniform or artificial structured data",
+            "Detected structure is not validated by SQLite validation",
+            "Integrity score indicates incomplete or truncated data",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Strong ASCII structure (1.00)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "Structure signal: Low byte diversity \u2192 artificial structure",
+            "Integrity signal: Incomplete extraction",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M2_3.bin",
+        "expected_label": "Partial",
+        "fdia": {
+            "classification": "Partial",
+            "confidence": 0.75
+        },
+        "signals": {
+            "entropy": 0.39229218908241476,
+            "entropy_variance": 0.28566001437693594,
+            "structure_confidence": 0.26999999999999996,
+            "integrity_score": 0.6,
+            "contradiction_index": 0.25
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Strong ASCII structure (1.00)",
+                "Data too small \u2192 incomplete structure",
+                "Low byte diversity \u2192 artificial structure"
+            ],
+            "integrity": [
+                "Incomplete extraction"
+            ],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "Low entropy indicates uniform or artificial structured data",
+            "Detected structure is not validated by SQLite validation",
+            "Integrity score indicates incomplete or truncated data",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Strong ASCII structure (1.00)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "Structure signal: Low byte diversity \u2192 artificial structure",
+            "Integrity signal: Incomplete extraction",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M2_4.bin",
+        "expected_label": "Partial",
+        "fdia": {
+            "classification": "Partial",
+            "confidence": 0.75
+        },
+        "signals": {
+            "entropy": 0.39229218908241476,
+            "entropy_variance": 0.28566001437693594,
+            "structure_confidence": 0.26999999999999996,
+            "integrity_score": 0.6,
+            "contradiction_index": 0.25
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Strong ASCII structure (1.00)",
+                "Data too small \u2192 incomplete structure",
+                "Low byte diversity \u2192 artificial structure"
+            ],
+            "integrity": [
+                "Incomplete extraction"
+            ],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "Low entropy indicates uniform or artificial structured data",
+            "Detected structure is not validated by SQLite validation",
+            "Integrity score indicates incomplete or truncated data",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Strong ASCII structure (1.00)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "Structure signal: Low byte diversity \u2192 artificial structure",
+            "Integrity signal: Incomplete extraction",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M2_5.bin",
+        "expected_label": "Partial",
+        "fdia": {
+            "classification": "Partial",
+            "confidence": 0.75
+        },
+        "signals": {
+            "entropy": 0.39229218908241476,
+            "entropy_variance": 0.28566001437693594,
+            "structure_confidence": 0.26999999999999996,
+            "integrity_score": 0.6,
+            "contradiction_index": 0.25
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Strong ASCII structure (1.00)",
+                "Data too small \u2192 incomplete structure",
+                "Low byte diversity \u2192 artificial structure"
+            ],
+            "integrity": [
+                "Incomplete extraction"
+            ],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "Low entropy indicates uniform or artificial structured data",
+            "Detected structure is not validated by SQLite validation",
+            "Integrity score indicates incomplete or truncated data",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Strong ASCII structure (1.00)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "Structure signal: Low byte diversity \u2192 artificial structure",
+            "Integrity signal: Incomplete extraction",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M2_6.bin",
+        "expected_label": "Partial",
+        "fdia": {
+            "classification": "Partial",
+            "confidence": 0.75
+        },
+        "signals": {
+            "entropy": 0.39229218908241476,
+            "entropy_variance": 0.28566001437693594,
+            "structure_confidence": 0.26999999999999996,
+            "integrity_score": 0.6,
+            "contradiction_index": 0.25
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Strong ASCII structure (1.00)",
+                "Data too small \u2192 incomplete structure",
+                "Low byte diversity \u2192 artificial structure"
+            ],
+            "integrity": [
+                "Incomplete extraction"
+            ],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "Low entropy indicates uniform or artificial structured data",
+            "Detected structure is not validated by SQLite validation",
+            "Integrity score indicates incomplete or truncated data",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Strong ASCII structure (1.00)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "Structure signal: Low byte diversity \u2192 artificial structure",
+            "Integrity signal: Incomplete extraction",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M2_7.bin",
+        "expected_label": "Partial",
+        "fdia": {
+            "classification": "Partial",
+            "confidence": 0.75
+        },
+        "signals": {
+            "entropy": 0.39229218908241476,
+            "entropy_variance": 0.28566001437693594,
+            "structure_confidence": 0.26999999999999996,
+            "integrity_score": 0.6,
+            "contradiction_index": 0.25
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Strong ASCII structure (1.00)",
+                "Data too small \u2192 incomplete structure",
+                "Low byte diversity \u2192 artificial structure"
+            ],
+            "integrity": [
+                "Incomplete extraction"
+            ],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "Low entropy indicates uniform or artificial structured data",
+            "Detected structure is not validated by SQLite validation",
+            "Integrity score indicates incomplete or truncated data",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Strong ASCII structure (1.00)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "Structure signal: Low byte diversity \u2192 artificial structure",
+            "Integrity signal: Incomplete extraction",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M2_8.bin",
+        "expected_label": "Partial",
+        "fdia": {
+            "classification": "Partial",
+            "confidence": 0.75
+        },
+        "signals": {
+            "entropy": 0.39229218908241476,
+            "entropy_variance": 0.28566001437693594,
+            "structure_confidence": 0.26999999999999996,
+            "integrity_score": 0.6,
+            "contradiction_index": 0.25
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Strong ASCII structure (1.00)",
+                "Data too small \u2192 incomplete structure",
+                "Low byte diversity \u2192 artificial structure"
+            ],
+            "integrity": [
+                "Incomplete extraction"
+            ],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "Low entropy indicates uniform or artificial structured data",
+            "Detected structure is not validated by SQLite validation",
+            "Integrity score indicates incomplete or truncated data",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Strong ASCII structure (1.00)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "Structure signal: Low byte diversity \u2192 artificial structure",
+            "Integrity signal: Incomplete extraction",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M2_9.bin",
+        "expected_label": "Partial",
+        "fdia": {
+            "classification": "Partial",
+            "confidence": 0.75
+        },
+        "signals": {
+            "entropy": 0.39229218908241476,
+            "entropy_variance": 0.28566001437693594,
+            "structure_confidence": 0.26999999999999996,
+            "integrity_score": 0.6,
+            "contradiction_index": 0.25
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Strong ASCII structure (1.00)",
+                "Data too small \u2192 incomplete structure",
+                "Low byte diversity \u2192 artificial structure"
+            ],
+            "integrity": [
+                "Incomplete extraction"
+            ],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "Low entropy indicates uniform or artificial structured data",
+            "Detected structure is not validated by SQLite validation",
+            "Integrity score indicates incomplete or truncated data",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Strong ASCII structure (1.00)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "Structure signal: Low byte diversity \u2192 artificial structure",
+            "Integrity signal: Incomplete extraction",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M3_0.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 3.5020606316860996,
+            "entropy_variance": 6.433622792944744,
+            "structure_confidence": 0.3,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.55
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "Moderate ASCII structure (0.79)",
+                "Data too small \u2192 incomplete structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "High entropy variance (mixed data)",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy variance indicates mixed structured and random content",
+            "Detected structure is not validated by SQLite validation",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: Moderate ASCII structure (0.79)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: High entropy variance (mixed data)",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M3_1.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 3.542416822869578,
+            "entropy_variance": 6.46719921657836,
+            "structure_confidence": 0.35,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.55
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "Possible table schema structure",
+                "Moderate ASCII structure (0.80)",
+                "Data too small \u2192 incomplete structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "High entropy variance (mixed data)",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy variance indicates mixed structured and random content",
+            "Detected structure is not validated by SQLite validation",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: Possible table schema structure",
+            "Structure signal: Moderate ASCII structure (0.80)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: High entropy variance (mixed data)",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M3_2.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 3.480831758225162,
+            "entropy_variance": 6.299259203634831,
+            "structure_confidence": 0.3,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.55
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "Moderate ASCII structure (0.80)",
+                "Data too small \u2192 incomplete structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "High entropy variance (mixed data)",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy variance indicates mixed structured and random content",
+            "Detected structure is not validated by SQLite validation",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: Moderate ASCII structure (0.80)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: High entropy variance (mixed data)",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M3_3.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 3.5180077844437143,
+            "entropy_variance": 6.378887343028276,
+            "structure_confidence": 0.3,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.55
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "Moderate ASCII structure (0.79)",
+                "Data too small \u2192 incomplete structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "High entropy variance (mixed data)",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy variance indicates mixed structured and random content",
+            "Detected structure is not validated by SQLite validation",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: Moderate ASCII structure (0.79)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: High entropy variance (mixed data)",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M3_4.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 3.51338924122055,
+            "entropy_variance": 6.407363009334592,
+            "structure_confidence": 0.35,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.55
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "Possible table schema structure",
+                "Moderate ASCII structure (0.80)",
+                "Data too small \u2192 incomplete structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "High entropy variance (mixed data)",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy variance indicates mixed structured and random content",
+            "Detected structure is not validated by SQLite validation",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: Possible table schema structure",
+            "Structure signal: Moderate ASCII structure (0.80)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: High entropy variance (mixed data)",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M3_5.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 3.5141049717153474,
+            "entropy_variance": 6.398223621454858,
+            "structure_confidence": 0.35,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.55
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "Possible table schema structure",
+                "Moderate ASCII structure (0.80)",
+                "Data too small \u2192 incomplete structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "High entropy variance (mixed data)",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy variance indicates mixed structured and random content",
+            "Detected structure is not validated by SQLite validation",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: Possible table schema structure",
+            "Structure signal: Moderate ASCII structure (0.80)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: High entropy variance (mixed data)",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M3_6.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 3.525661362337643,
+            "entropy_variance": 6.406335662548144,
+            "structure_confidence": 0.35,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.55
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "Possible table schema structure",
+                "Moderate ASCII structure (0.79)",
+                "Data too small \u2192 incomplete structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "High entropy variance (mixed data)",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy variance indicates mixed structured and random content",
+            "Detected structure is not validated by SQLite validation",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: Possible table schema structure",
+            "Structure signal: Moderate ASCII structure (0.79)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: High entropy variance (mixed data)",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M3_7.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 3.5122431160103034,
+            "entropy_variance": 6.3495725715481335,
+            "structure_confidence": 0.35,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.55
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "High readable content (likely structured text)",
+                "Moderate ASCII structure (0.81)",
+                "Data too small \u2192 incomplete structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "High entropy variance (mixed data)",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy variance indicates mixed structured and random content",
+            "Detected structure is not validated by SQLite validation",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: High readable content (likely structured text)",
+            "Structure signal: Moderate ASCII structure (0.81)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: High entropy variance (mixed data)",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M3_8.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 3.5295283422498955,
+            "entropy_variance": 6.477799304950439,
+            "structure_confidence": 0.35,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.55
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "Possible table schema structure",
+                "Moderate ASCII structure (0.79)",
+                "Data too small \u2192 incomplete structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "High entropy variance (mixed data)",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy variance indicates mixed structured and random content",
+            "Detected structure is not validated by SQLite validation",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: Possible table schema structure",
+            "Structure signal: Moderate ASCII structure (0.79)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: High entropy variance (mixed data)",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    },
+    {
+        "file": "datasets\\misleading_v1\\M3_9.bin",
+        "expected_label": "Misleading",
+        "fdia": {
+            "classification": "Misleading",
+            "confidence": 0.85
+        },
+        "signals": {
+            "entropy": 3.548848381654237,
+            "entropy_variance": 6.360853833334651,
+            "structure_confidence": 0.3,
+            "integrity_score": 1.0,
+            "contradiction_index": 0.55
+        },
+        "details": {
+            "structure": [
+                "SQLite signature present",
+                "Invalid page size: 16705",
+                "Moderate ASCII structure (0.79)",
+                "Data too small \u2192 incomplete structure"
+            ],
+            "integrity": [],
+            "sqlite_validation": {
+                "validated_structure_score": 0.2,
+                "page_integrity_score": 0.0,
+                "schema_consistency": 0.0,
+                "artifact_confidence": 0.0,
+                "reasons": [
+                    "Valid SQLite header detected",
+                    "Invalid page size: 16705"
+                ]
+            },
+            "contradictions": [
+                "High entropy variance (mixed data)",
+                "Invalid structure signature"
+            ]
+        },
+        "reasoning": [
+            "High entropy variance indicates mixed structured and random content",
+            "Detected structure is not validated by SQLite validation",
+            "Contradiction index indicates conflicting forensic signals",
+            "No valid SQLite page structure detected",
+            "Structure signal: SQLite signature present",
+            "Structure signal: Invalid page size: 16705",
+            "Structure signal: Moderate ASCII structure (0.79)",
+            "Structure signal: Data too small \u2192 incomplete structure",
+            "SQLite validation: Valid SQLite header detected",
+            "SQLite validation: Invalid page size: 16705",
+            "Contradiction: High entropy variance (mixed data)",
+            "Contradiction: Invalid structure signature"
+        ],
+        "baselines": {
+            "entropy": "Usable",
+            "structure": "Encrypted"
+        }
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "type": "M1",
+    "ground_truth": "Misleading",
+    "description": "Header spoof with random payload",
+    "expected_fdia": "Misleading"
+}

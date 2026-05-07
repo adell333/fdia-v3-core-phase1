@@ -1,0 +1,6 @@
+{
+    "type": "M3",
+    "ground_truth": "Misleading",
+    "description": "Mixed structure + random noise",
+    "expected_fdia": "Misleading"
+}
